@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>運満 サポート</title>
+  <meta name="description" content="ドライバー向け配車・勤怠アプリ「運満」のサポートページです。ログイン、位置情報、通知、出勤についての案内を掲載しています。">
+  <style>
+    :root {
+      --bg: #fff8f2;
+      --paper: #ffffff;
+      --ink: #1e293b;
+      --muted: #64748b;
+      --line: #f1e6dc;
+      --accent: #f97316;
+      --accent-soft: #fff1e6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+      line-height: 1.7;
+    }
+    header {
+      background: #1e293b;
+      color: #fff;
+    }
+    .wrap {
+      width: min(720px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    header .wrap { padding: 36px 0 32px; }
+    .mark {
+      display: inline-block;
+      margin: 0 0 12px;
+      padding: 2px 10px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+    h1 { margin: 0; font-size: 32px; letter-spacing: 0.04em; }
+    header p { margin: 8px 0 0; color: #e2e8f0; }
+    main { padding: 28px 0 64px; }
+    section {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 22px 22px 8px;
+      margin-bottom: 16px;
+    }
+    h2 { margin: 0 0 12px; font-size: 18px; }
+    p, li { font-size: 15px; }
+    ol, ul { margin: 0 0 16px; padding-left: 1.2em; }
+    a { color: #c2410c; }
+    details {
+      border-top: 1px solid var(--line);
+      padding: 12px 0;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: 700;
+    }
+    details p { margin: 8px 0 4px; color: var(--ink); }
+    .contact {
+      background: var(--accent-soft);
+      border-color: #ffd7bd;
+    }
+    footer {
+      color: var(--muted);
+      font-size: 13px;
+      padding-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="mark">SUPPORT</p>
+      <h1>運満 サポート</h1>
+      <p>所属会社のドライバー向け配車・勤怠アプリ</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <section>
+      <h2>このアプリについて</h2>
+      <p>運満は、運送会社に所属するドライバーが、配車の確認、出発、配送実績の記録、出勤・退勤を行うための業務アプリです。会社から利用登録された携帯電話番号でのみログインできます。</p>
+    </section>
+    <section>
+      <h2>ご利用の流れ</h2>
+      <ol>
+        <li>アプリを開き、登録済みの携帯電話番号を入力します。</li>
+        <li>SMSで届いた認証コードを入力してログインします。</li>
+        <li>複数の会社に所属している場合は、今回の会社を選びます。</li>
+        <li>車両を選んで出勤し、配車に従って配送を進めてください。</li>
+      </ol>
+    </section>
+    <section>
+      <h2>よくある質問</h2>
+      <details>
+        <summary>ログインできない</summary>
+        <p>会社に登録されている携帯電話番号か確認してください。SMSが届かない場合は電波状況を確認し、しばらく待ってから再送信してください。番号が未登録の場合は、所属会社の管理者に利用登録を依頼してください。</p>
+      </details>
+      <details>
+        <summary>位置情報が取得できない</summary>
+        <p>出勤中の運行記録のため、位置情報の利用を「常に許可」にしてください。iPhoneの「設定」→「運満」→「位置情報」から変更できます。</p>
+      </details>
+      <details>
+        <summary>通知が来ない</summary>
+        <p>「設定」→「運満」→「通知」で通知を許可してください。ロック画面に運転状況を表示する場合は、リアルタイムアクティビティもオンにしてください。</p>
+      </details>
+      <details>
+        <summary>動きとフィットネスの許可を求められた</summary>
+        <p>運転中かどうかの判定に使用します。iPhoneの「設定」→「プライバシーとセキュリティ」→「モーションとフィットネス」で運満を許可してください。</p>
+      </details>
+      <details>
+        <summary>カメラやマイクの許可を求められた</summary>
+        <p>配送実績の写真・動画を記録するときに使用します。撮影できない場合は「設定」→「運満」からカメラとマイクを許可してください。</p>
+      </details>
+      <details>
+        <summary>配車が表示されない、または操作で困った</summary>
+        <p>一度アプリを終了して開き直し、通信できる場所で配車一覧を更新してください。解決しない場合は、所属会社の管理者へ連絡してください。</p>
+      </details>
+    </section>
+    <section class="contact">
+      <h2>お問い合わせ</h2>
+      <p>ログイン、配車、勤怠に関するご連絡は、所属会社の管理者にしてください。配送中は、配車詳細画面の「運営へ電話」からも連絡できます。</p>
+      <p>アカウントをお持ちでない方は、ご自身では登録できません。所属会社の管理者に利用登録を依頼してください。</p>
+    </section>
+  </main>
+  <footer class="wrap">運満サポート</footer>
+</body>
+</html>
